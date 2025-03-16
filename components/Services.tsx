@@ -2,32 +2,34 @@ import ServicesCard from "./ServicesCard";
 
 const Services = () => {
   return (
-    <section className="w-full h-[410px] bg-yellow-5 mb-[400px]">
-      <div className="w-[1200px] mx-auto flex flex-col items-center justify-center relative">
-        <div className="text-[20px] tracking-[2px] text-gold font-semibold mt-[10px]">
-          Our Services
+    <section className="w-full bg-yellow-5 mb-[400px] max-md:mb-[800px] max-xs:mb-[1650px] max-bg:px-[50px] max-xs:px-[20px]">
+      <div className="max-w-[1200px] w-full h-[410px] mx-auto flex flex-wrap flex-col items-center justify-start relative">
+        <div className="text-[20px] tracking-[2px] text-gold font-semibold mt-[40px]">
+          ჩვენი სერვისები
         </div>
-        <h1 className="mt-[20px] text-[52px]">What We Offer</h1>
-        <div className="w-full flex justify-between items-center absolute bottom-[-50px]">
+        <h1 className="mt-[20px] text-[52px] max-md:text-[38px] max-xs:text-[26px]">
+          რას გთავაზობთ ჩვენ
+        </h1>
+        <div className="w-full flex justify-between items-center absolute bottom-[-250px] max-md:grid max-md:grid-cols-2 max-md:gap-[20px] max-md:top-[200px] max-xs:grid-cols-1">
           <ServicesCard
-            src_big="service-1.png"
+            heading="ბუჩქების მოვლა"
+            src_big="bush-trees.jfif"
             src_small="service-1.svg"
-            btn_text="Read More"
           />
           <ServicesCard
-            src_big="service-2.png"
+            heading="ქიმიური შეწამვლა"
+            src_big="chemical-watering.jfif"
             src_small="service-2.svg"
-            btn_text="Read More"
           />
           <ServicesCard
-            src_big="service-3.png"
+            heading="გაზონის გაკრეჭა"
+            src_big="lawn-3.jfif"
             src_small="service-3.svg"
-            btn_text="Read More"
           />
           <ServicesCard
-            src_big="service-4.png"
+            heading="ხეების მოვლა"
+            src_big="pine.jfif"
             src_small="service-4.svg"
-            btn_text="Read More"
           />
         </div>
       </div>

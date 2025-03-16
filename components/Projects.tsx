@@ -1,22 +1,37 @@
-import Image from "next/image";
+import ServicesCard from "./ServicesCard";
 
 const Projects = () => {
   return (
-    <section className="mb-[350px]">
-      <div className="w-[1200px] flex flex-col items-center mx-auto">
-        <h4 className="text-[20px] text-gold tracking-[2px] mb-[10px]">
-          Recently Completed
-        </h4>
-        <h1 className="text-[52px] tracking-[1px] mb-[40px]">
-          Explore Projects
+    <section className="w-full mb-[400px] max-md:mb-[800px] max-xs:mb-[1650px] max-bg:px-[50px] max-xs:px-[20px]">
+      <div className="max-w-[1200px] w-full h-[410px] mx-auto flex flex-wrap flex-col items-center justify-start relative">
+        <div className="text-[20px] tracking-[2px] text-gold font-semibold mt-[40px]">
+          ჩვენი პროექტები
+        </div>
+        <h1 className="mt-[20px] text-[52px] max-md:text-[38px] max-xs:text-[26px]">
+          რას გთავაზობთ ჩვენ
         </h1>
-        <Image
-          className="cursor-pointer"
-          src={"/projects.png"}
-          width={1200}
-          height={440}
-          alt="projects"
-        />
+        <div className="w-full flex justify-between items-center absolute bottom-[-250px] max-md:grid max-md:grid-cols-2 max-md:gap-[20px] max-md:top-[200px] max-xs:grid-cols-1">
+          <ServicesCard
+            heading="ბუჩქების მოვლა"
+            src_big="bush-trees.jfif"
+            src_small="service-1.svg"
+          />
+          <ServicesCard
+            heading="ქიმიური შეწამვლა"
+            src_big="chemical-watering.jfif"
+            src_small="service-2.svg"
+          />
+          <ServicesCard
+            heading="გაზონის გაკრეჭა"
+            src_big="lawn-3.jfif"
+            src_small="service-3.svg"
+          />
+          <ServicesCard
+            heading="ხეების მოვლა"
+            src_big="pine.jfif"
+            src_small="service-4.svg"
+          />
+        </div>
       </div>
     </section>
   );

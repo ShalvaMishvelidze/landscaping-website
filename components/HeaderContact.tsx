@@ -14,7 +14,7 @@ const HeaderContact = ({
       <Image src={`/${src}`} alt="phone" width={30} height={30} />
       <div>
         <p className="text-[12px] text-gray-50">{paragraph}</p>
-        <h5 className="text-[14px] font-medium">{heading}</h5>
+        <h5 className="text-[14px] font-sans font-bold">{heading}</h5>
       </div>
     </div>
   );
