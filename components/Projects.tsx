@@ -13,22 +13,22 @@ const Projects = () => {
         <div className="w-full flex justify-between items-center absolute bottom-[-250px] max-md:grid max-md:grid-cols-2 max-md:gap-[20px] max-md:top-[200px] max-xs:grid-cols-1">
           <ServicesCard
             heading="ბუჩქების მოვლა"
-            src_big="bush-trees.jfif"
+            src_big="bush-trees.jpg"
             src_small="service-1.svg"
           />
           <ServicesCard
             heading="ქიმიური შეწამვლა"
-            src_big="chemical-watering.jfif"
+            src_big="chemical-watering.jpg"
             src_small="service-2.svg"
           />
           <ServicesCard
             heading="გაზონის გაკრეჭა"
-            src_big="lawn-3.jfif"
+            src_big="lawn-3.jpg"
             src_small="service-3.svg"
           />
           <ServicesCard
             heading="ხეების მოვლა"
-            src_big="pine.jfif"
+            src_big="pine.jpg"
             src_small="service-4.svg"
           />
         </div>

@@ -7,14 +7,14 @@ const About = () => {
       <div className="max-w-[1200px] w-full flex justify-between items-center mx-auto max-md:justify-center max-md:gap-[50px] max-sm:flex-col max-sm:gap-[20px]">
         <div className="max-sm:w-fit w-48/100 max-bg:w-3/10 relative max-bg:right-[-40px] max-sm:right-0">
           <Image
-            src={"/vine.jfif"}
+            src={"/vine.jpg"}
             alt="about"
             width={550}
             height={550}
             className="rounded-[50%] max-bg:w-[300] max-md:w-[240px] max-bg:h-[300] max-md:h-[240px] w-[550px] h-[550px] object-cover "
           />
           <Image
-            src={"/vine-2.jfif"}
+            src={"/vine-2.jpg"}
             alt="about"
             width={240}
             height={240}

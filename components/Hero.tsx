@@ -24,17 +24,17 @@ const Hero = () => {
           <HeroCard
             heading="გაზონის გაკრეჭა"
             paragraph="აქ უნდა ეწეროს რამე პარარა ტექსტი ამ საქმეზე"
-            src="lawn.jfif"
+            src="lawn.jpg"
           />
           <HeroCard
             heading="მურჩის დაყრა"
             paragraph="აქ უნდა ეწეროს რამე პარარა ტექსტი ამ საქმეზე"
-            src="red-filling.jfif"
+            src="red-filling.jpg"
           />
           <HeroCard
             heading="ბუჩქების გაკრეჭა"
             paragraph="აქ უნდა ეწეროს რამე პარარა ტექსტი ამ საქმეზე"
-            src="trimmed-bushes.jfif"
+            src="trimmed-bushes.jpg"
           />
         </div>
       </div>
